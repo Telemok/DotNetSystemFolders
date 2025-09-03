@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+		<Company>Telemok</Company>
+		<CompanyName>Telemok</CompanyName>
+		<Product>SystemFolders</Product>
+		<ProductName>SystemFolders</ProductName>
+		<Authors>Dmitrii Arshinnikov</Authors>
+		<Description>C# .net8 lib to store settings in roaming, tmp in temp...</Description>
+		<AssemblyTitle>SystemFolders</AssemblyTitle>
+
+
+
+		<Version>0.0.1</Version>
+		<FileVersion>0.0.1</FileVersion>
+		<PackageVersion>0.0.1</PackageVersion>
+		<PackageId>SystemFolders</PackageId>
+		<PackageTags>Settings; appdata; roaming; json</PackageTags>
+		<RepositoryUrl>creating...</RepositoryUrl>
+			
+			
+			
+		<TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+		<!-- Allow create NuGet-packet.-->
+		<IsPackable>true</IsPackable>
+
+		<!-- IncludeBuildOutput false - lib is source code, true - lis is .dll -->
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		
+		<NuspecFile>$(MSBuildProjectName).nuspec</NuspecFile>
+		<CreatePackageOnBuild>true</CreatePackageOnBuild>
+
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="readme.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>

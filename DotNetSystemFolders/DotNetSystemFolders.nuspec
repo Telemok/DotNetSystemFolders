@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>SystemFolders</id>
+    <version>0.0.1</version>
+    <authors>Dmitrii Arshinnikov</authors>
+    <description>C# .net8 lib to store settings in roaming, tmp in temp...</description>
+    <tags>Settings, appdata, roaming, json</tags>
+    <repository type="git" url="https://github.com/Telemok/DotNetSystemFolders" />
+		<readme>readme.md</readme>
+  </metadata>
+  <files>
+    <file src="**\*.cs" target="contentFiles\cs\net8.0\" />
+			<file src="Readme.md" target="\" />
+  </files>
+</package>

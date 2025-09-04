@@ -12,15 +12,18 @@
 
 
 
-		<Version>0.0.1</Version>
-		<FileVersion>0.0.1</FileVersion>
-		<PackageVersion>0.0.1</PackageVersion>
+		<Version>0.0.2</Version>
+		<FileVersion>0.0.2</FileVersion>
+		<PackageVersion>0.0.2</PackageVersion>
 		<PackageId>SystemFolders</PackageId>
 		<PackageTags>Settings; appdata; roaming; json</PackageTags>
 		<RepositoryUrl>creating...</RepositoryUrl>
-			
-			
-			
+
+		<!-- Required when use this as source code to remove conflict with main project.
+		Without it ProductName, AssemblyTitle, ... will be used from this lib. -->
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+
 		<TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
